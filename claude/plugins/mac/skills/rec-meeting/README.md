@@ -39,7 +39,7 @@ REC_DIR=$(find ~/.claude/plugins/cache -type d -name rec-meeting | head -1)
 3. ⚠️ **재부팅 필요** (BlackHole이 커널 드라이버라 1회성)
 4. (재부팅 후 다시 같은 명령 실행)
 5. ✅ Multi-Output Device 자동 가이드 (Audio MIDI Setup 자동 오픈 + 4단계 안내)
-6. ✅ xbar 메뉴바 설치 (선택)
+6. ✅ xbar 메뉴바 설치 (선택) — 런처가 플러그인 경로를 자동 추적하므로 버전이 올라가도 재설치 불필요
 7. ✅ 권한 안내
 8. ✅ 최종 점검
 
