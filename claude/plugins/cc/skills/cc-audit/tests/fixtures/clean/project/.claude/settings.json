@@ -1,0 +1,1 @@
+{ "permissions": { "allow": ["Bash(make:*)"], "deny": ["Edit(./.env)"] }, "sandbox": { "enabled": true } }

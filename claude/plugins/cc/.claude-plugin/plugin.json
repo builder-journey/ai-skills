@@ -1,0 +1,10 @@
+{
+  "name": "bj-cc",
+  "description": "Claude Code 설정 점검. CLAUDE.md·권한·훅·스킬·메모리 설정을 공식 문서 기준 안티패턴과 대조한다.",
+  "version": "0.1.0",
+  "author": { "name": "builder-journey" },
+  "homepage": "https://github.com/builder-journey/ai-skills",
+  "repository": "https://github.com/builder-journey/ai-skills",
+  "license": "MIT",
+  "keywords": ["claude-code", "settings", "claude-md", "audit", "best-practices"]
+}

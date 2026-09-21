@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": ["Bash(git status)", "Bash(npm test)", "Bash(ls:*)", "Edit(docs/**)", "Read(./src/**)"],
+    "ask": ["Bash(npm:*)"],
+    "deny": ["Bash(git push --force:*)"],
+    "defaultMode": "auto"
+  },
+  "sandbox": { "enabled": true },
+  "hooks": {
+    "PostToolUse": [
+      { "hooks": [ { "type": "command", "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/ok.sh | head -20" } ] }
+    ]
+  },
+  "model": "opus"
+}
