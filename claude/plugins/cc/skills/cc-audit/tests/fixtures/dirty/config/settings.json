@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status)","Bash(npm test)",
+      "Bash(*)","Bash(python*)","Bash(npm run *)","Agent","Monitor",
+      "Write(src/**)","Glob(docs/**)"
+    ],
+    "ask": ["NotebookEdit(notebooks/**)"],
+    "deny": ["Bash(npm:*)","Bash(docker:*)","Bash(curl:*)","Bash(rm -rf:*)"],
+    "defaultMode": "auto"
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "includeCoAuthoredBy": false,
+  "keybindingFlavor": "vim",
+  "totallyMadeUpKey": 1,
+  "env": { "API_URL": "http://localhost:3000", "PROJ_TOKEN": "abc" },
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "cat /Users/someone/myproj/notes.md" } ] }
+    ],
+    "PostToolUse": [
+      { "hooks": [ { "type": "command", "command": "git log --oneline | head -5" } ] },
+      { "hooks": [ { "type": "command", "command": "${CLAUDE_CONFIG_DIR}/hooks/warn.sh | head -5" } ] }
+    ]
+  },
+  "mcpServers": { "a": {}, "b": {}, "c": {}, "d": {}, "e": {}, "f": {} }
+}

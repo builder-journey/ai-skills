@@ -15,7 +15,27 @@
       "description": "맥 로컬 자동화 스킬 (미팅 녹음·전사). Apple Silicon 전용.",
       "version": "0.2.0",
       "category": "productivity",
-      "keywords": ["macos", "recording", "transcription", "whisper", "meeting"]
+      "keywords": [
+        "macos",
+        "recording",
+        "transcription",
+        "whisper",
+        "meeting"
+      ]
+    },
+    {
+      "name": "bj-cc",
+      "source": "./claude/plugins/cc",
+      "description": "Claude Code 설정 점검. CLAUDE.md·권한·훅·스킬·메모리를 공식 문서 기준 안티패턴과 대조한다.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "claude-code",
+        "settings",
+        "claude-md",
+        "audit",
+        "best-practices"
+      ]
     }
   ]
 }
