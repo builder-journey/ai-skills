@@ -1,0 +1,21 @@
+{
+  "name": "builder-journey",
+  "owner": {
+    "name": "builder-journey",
+    "url": "https://github.com/builder-journey"
+  },
+  "metadata": {
+    "description": "builder-journey 공용 AI 스킬 모음",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bj-mac",
+      "source": "./claude/plugins/mac",
+      "description": "맥 로컬 자동화 스킬 (미팅 녹음·전사). Apple Silicon 전용.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["macos", "recording", "transcription", "whisper", "meeting"]
+    }
+  ]
+}

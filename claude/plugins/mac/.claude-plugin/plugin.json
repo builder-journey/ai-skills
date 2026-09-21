@@ -1,0 +1,10 @@
+{
+  "name": "bj-mac",
+  "description": "맥 로컬 자동화 스킬 (미팅 녹음·전사). Apple Silicon 전용.",
+  "version": "0.1.0",
+  "author": { "name": "builder-journey" },
+  "homepage": "https://github.com/builder-journey/ai-skills",
+  "repository": "https://github.com/builder-journey/ai-skills",
+  "license": "MIT",
+  "keywords": ["macos", "recording", "transcription", "whisper", "meeting"]
+}
