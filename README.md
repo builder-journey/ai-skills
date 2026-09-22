@@ -15,6 +15,7 @@ codex/                            Codex CLI용 지침·프롬프트
 ```bash
 /plugin marketplace add builder-journey/ai-skills
 /plugin install bj-mac@builder-journey
+/plugin install bj-cc@builder-journey
 ```
 
 업데이트:
@@ -28,6 +29,7 @@ codex/                            Codex CLI용 지침·프롬프트
 | 플러그인 | 내용 | 비고 |
 |---|---|---|
 | `bj-mac` | `rec-meeting` — 미팅 녹음 → 자동 전사 | Apple Silicon Mac 전용 |
+| `bj-cc` | `cc-review` — 지시부 텍스트(CLAUDE.md·rules·스킬) 점검 | 최신 공식 문서를 매번 조회 |
 
 ---
 

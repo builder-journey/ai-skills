@@ -1,0 +1,10 @@
+{
+  "name": "bj-cc",
+  "description": "지시부 텍스트 점검. CLAUDE.md·rules·SKILL.md·agents 를 최신 공식 문서 기준으로 심사하고 개선안을 낸다.",
+  "version": "0.1.0",
+  "author": { "name": "builder-journey" },
+  "homepage": "https://github.com/builder-journey/ai-skills",
+  "repository": "https://github.com/builder-journey/ai-skills",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-md", "skills", "review", "best-practices"]
+}
